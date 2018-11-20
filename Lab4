@@ -1,0 +1,42 @@
+load Fence_data.mat
+% load the whole data set
+
+data = artificial_data;   
+
+% extract out the data
+
+% xxxxxxxxxxxxxxxxxxxxxxx 
+
+V = reshape(data, 1024, 69);                                                          % convert original data to two dimensional matrix
+
+rank = 16;                                                                                  % define the number of bases
+iteration = 1000;                                                                           % define iteration criterion
+
+W = 2 * rand(size(V, 1), rank);                                                 % initialize W, H
+H = 2 * rand(rank, size(V, 2)); 
+
+for ii = 1:iteration
+    H = (transpose(W) * W) \ transpose(W)*V
+    
+    for j = 1 : size(H, 1)
+        for k = 1 : size(H, 2)
+            if(H(j, k) < 0)
+                H(j, k) = 0;
+            end
+        end
+    end
+    
+    W = transpose((H * transpose(H)) \ H * transpose(V))
+    
+    for j = 1 : size(W, 1)
+        for k = 1 : size(W, 2)
+            if(W(j, k) < 0)
+                W(j, k) = 0;
+            end
+        end
+    end
+end
+
+//-- 
+//Sincerely J
+//Thank You J!
