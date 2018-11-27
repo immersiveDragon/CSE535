@@ -13,3 +13,9 @@ This is a final project not just a research reading and summary, which means you
 Hope it helps. 
 
 Dr. Sun
+
+To leave more time on the project, I will schedule all the project presentations on next Tuesday (Dec. 4th) from 8:00 - 10:00am. We have 10 groups, so every group only has 12 minutes. In order to finish by 10am (there will be another exam starts at 10), every group is required to send your PPT to me by 10pm on Dec. 3rd. I will put all PPTs in one folder in order for your fastest access on the presentation date. 
+
+Best,
+
+Dr. Sun
