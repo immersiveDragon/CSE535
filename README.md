@@ -1,5 +1,4 @@
 # CSE535
-LigMa!
 This is a final project not just a research reading and summary, which means you need to actually implement the algorithm you selected to process a certain dataset (search and choose by yourselves) to see the performance and demonstrate your results. You also can see that there is a "result & discussion" criterion in the evaluation sheet. So you have to present your own results of implementation. There are four important components you have to figure out.
 
 1. Algorithm. You have to understand completely about the algorithm you choose. Try to search online for tutorials, papers, videos to help understanding. This is a necessary part for any research project. 
